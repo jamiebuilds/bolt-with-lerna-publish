@@ -1,0 +1,15 @@
+{
+  "name": "bolt-with-lerna-publish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "bolt": {
+    "workspaces": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^2.9.1"
+  }
+}
